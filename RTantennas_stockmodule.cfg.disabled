@@ -1,0 +1,126 @@
+// Stock transmitter module for RT antennas
+// Author: Initar
+// Version 1.0
+
+// You abandoned Remote-Tech but wanna keep those nice antennas? This file will make 
+// them work like stock ones, with adapted transmission and power-consumption values. 
+
+// In your RemoteTech folder, delete everything but the 'part' folder, place this file
+// in it and enjoy! -- Don't forget to remove it if you switch back to RT! --
+
+// Note: the Reflectron LL-5 and SS-5 parts are deprecated, thus they are not referenced
+// in this file and can be removed from the RemoteTech folder if not needed (they do not
+// appear in the VAB).
+
+@PART[RTShortAntenna1]  // Reflectron DP-10 == Communotron 16
+{
+MODULE
+{
+	name = ModuleDataTransmitter
+	
+	packetInterval = 0.4
+	packetSize = 2
+	
+	packetResourceCost = 10.0
+	requiredResource = ElectricCharge
+	
+	DeployFxModules = 0
+}
+}
+
+@PART[RTLongAntenna2]  // Communotron 32
+{
+MODULE
+{
+	name = ModuleDataTransmitter
+	
+	packetInterval = 0.5
+	packetSize = 2
+	
+	packetResourceCost = 12.0
+	requiredResource = ElectricCharge
+	
+	DeployFxModules = 0
+}
+}
+
+@PART[RTLongAntenna3] // CommTech EXP-VR-2T
+{
+MODULE
+{
+	name = ModuleDataTransmitter
+	
+	packetInterval = 0.5
+	packetSize = 2
+	
+	packetResourceCost = 12.0
+	requiredResource = ElectricCharge
+	
+	DeployFxModules = 0
+}
+}
+
+@PART[RTShortDish2] // Reflectron KR-7 == Comms DTS-M1
+{
+MODULE
+{
+	name = ModuleDataTransmitter
+	
+	packetInterval = 0.3
+	packetSize = 2
+	
+	packetResourceCost = 12.5
+	requiredResource = ElectricCharge
+	
+	DeployFxModules = 0
+}
+}
+
+@PART[RTLongDish2] // Reflectron KR-14 == Communotron 88-88
+{
+MODULE
+{
+	name = ModuleDataTransmitter 
+	
+	packetInterval = 0.18
+	packetSize = 2
+	
+	packetResourceCost = 20.0
+	requiredResource = ElectricCharge
+		
+	DeployFxModules = 0
+}
+}
+
+@PART[RTGigaDish1] // Reflectron GX-128
+{
+MODULE
+{
+	name = ModuleDataTransmitter
+	
+	packetInterval = 0.16
+	packetSize = 2
+	
+	packetResourceCost = 25.0
+	requiredResource = ElectricCharge
+		
+	DeployFxModules = 0
+}
+
+}
+
+@PART[RTGigaDish2] // CommTech-1
+{
+MODULE
+{
+	name = ModuleDataTransmitter
+	
+	packetInterval = 0.2
+	packetSize = 2
+	
+	packetResourceCost = 20.0
+	requiredResource = ElectricCharge
+		
+	DeployFxModules = 0
+}
+}

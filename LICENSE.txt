@@ -1,0 +1,7 @@
+This mod consists of several parts
+
+AutoPruner		Author does not have a license
+More Prune Lists	License: CC-BY-NC-SA 4.0 International Public License
+
+Kerbal-AntennaRange-All-In-1_Patch and RTantennas_antennarange.cfg.disabled
+		unlicense (anything goes)
