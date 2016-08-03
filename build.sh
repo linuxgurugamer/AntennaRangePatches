@@ -1,6 +1,6 @@
 #!/bin/bash
 
-home=/cygdrive/d/users/jbb
+home=/d/users/jbb
 
 
 MODNAME=AntennaRangePatches
@@ -44,7 +44,7 @@ done
 
 cp -a AutoPruner $home/install
 
-cd $HOME/install
+cd $home/install
 zipFile=$RELEASEDIR/${MODNAME}-$VERSION.zip 
 rm -f $zipFile
 zip -9r $zipFile AutoPruner GameData/$MODNAME

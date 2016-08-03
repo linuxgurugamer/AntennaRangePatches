@@ -1,18 +1,26 @@
 {
-	"NAME":"AntennaRangePatches",
-	"URL":"http://ksp-avc.cybutek.net/version.php?id=229",
-	"VERSION":
-	{
-		"MAJOR":0,
-		"MINOR":1,
-		"PATCH":0,
-		"BUILD":0
-	},
-	"KSP_VERSION":
-	{
-		"MAJOR":1,
-		"MINOR":0,
-		"PATCH":4
-	}
+  "NAME": "AntennaRangePatches",
+  "URL": "http://ksp-avc.cybutek.net/version.php?id=229",
+  "VERSION": {
+    "MAJOR": 0,
+    "MINOR": 1,
+    "PATCH": 1,
+    "BUILD": 0
+  },
+  "KSP_VERSION": {
+    "MAJOR": 1,
+    "MINOR": 0,
+    "PATCH": 4
+  },
+  "KSP_VERSION_MIN": {
+    "MAJOR": 1,
+    "MINOR": 0,
+    "PATCH": 4
+  },
+  "KSP_VERSION_MAX": {
+    "MAJOR": 1,
+    "MINOR": 1,
+    "PATCH": 99
+  }
 }
 
